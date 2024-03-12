@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yusbolster{
+    
+    text-align: right
+    }
+.yusuf{
+    width: 300px;
+    height: 300px;
+    border: solid 3px;
+    border-color: green;
+    border-radius: 20px;
+}
+.money{
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-color: red;
+  border-radius: 36px;
+  align-items: end;
+
+}

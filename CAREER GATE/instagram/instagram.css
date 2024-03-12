@@ -1,0 +1,115 @@
+:root{
+    --yusufBlue: #0866ff;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+main{
+    width: 100%;
+    height: 80vh;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: 30px;
+}
+.yyy{
+    position: relative;
+    top: 30px;
+}
+main .first div{
+    width: 350px;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid rgba(0, 0, 0, 0.1);
+    border-width: 0.25px;
+    gap: 25px;
+    margin-top: 20px;
+
+}
+
+
+main input{
+    width: 65%;
+    height: 15px;
+    font-size: 13px;
+    color: black;
+    background-color: #fafafa;
+    border: 0.25px grey solid;
+    border-radius: 3px;
+    padding: 10px;   
+    position: relative;
+    top: 30px;
+}
+main input:focus{
+    outline-color: #1877f2;
+}
+main input::placeholder{
+    padding: 10px;
+    opacity: .6;
+}
+main .button{
+    width: 70%;
+    height: 200px;
+    background-color: #0095fe;
+    border: white;
+    border-radius: 5px;
+    align-items: center;
+     position: relative;
+    top: 30px;
+}
+
+main .first hr{
+    width: 50px;
+    margin-bottom: 0;
+}
+main .facebook{
+    color: #385185;
+    font-weight: bold;
+}
+main .account{
+    border: solid rgba(0, 0, 0, 0.1);
+    border-width: 0.25px;
+    width: 350px;
+    height: 63px;
+    position: relative;
+    top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+main .sign{
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+main .get{
+    position: relative;
+    top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+main .play{
+
+    position: relative;
+    top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+.forgot{
+    margin-top: 30px;
+    position: relative;
+   bottom: 40px;
+}

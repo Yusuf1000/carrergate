@@ -1,0 +1,128 @@
+*{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.small-yusbolster{
+    width: 100px;
+    height: 30px;
+    border: dashed;
+    background-color: yellow;
+}
+
+    html{
+        font-size: 25px;
+    }
+    h2{
+    border: dashed;    
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 70px;
+    padding-left: 300px;
+    }
+  
+    .father{
+        border: dashed rgba(30, 255, 0, 0.473);
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 30px;
+        background-color: rgb(206, 8, 255);
+      
+    }
+   .father .son{
+        border: dashed red;
+        width: 50%;
+        height: 50%;
+        font-size: 7rem;
+        background-color: 	#FFCC08;
+    }
+
+    .position{
+        width: 50vw;
+        height: 60vh;
+        border: dashed red;
+        margin-top: 100px;
+    }
+
+    .position .relative{
+        border: dashed;
+        width: 300px;
+        height: 60px;
+        position: relative;
+        top: 70px;
+        left: 0;
+   
+    }
+.position .absolute{
+    border: dashed;
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    top: 2000px;
+    left: 0;
+
+}
+.position .fixed{
+    border: dashed;
+    width: 300px;
+    height: 60px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+}
+
+.top{
+    width: 200px;
+    height: 200px;
+    border: dashed;
+    background-color: red;
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;
+    opacity: 0.4;
+}
+.bottom{
+    width: 200px;
+    height: 200px;
+    border: dashed;
+    background-color: black;
+
+}
+/*css flex box*/
+.column{
+    border: dashed;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*in flex direction of column, align items moves element horizontally*/
+    justify-content: space-between;/* in flex direction of column, justify-contents moves element vertically*/
+
+
+}
+
+.row{
+    border: dashed;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*in flex direction of row, align items moves elements vertically*/
+    justify-content: space-around;/*in flex direction of row, justify-contents move element horizontally*/
+
+}
